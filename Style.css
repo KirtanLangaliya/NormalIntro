@@ -1,0 +1,84 @@
+#name {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 80px;
+    color: rgb(15, 138, 15);
+
+}
+
+.self {
+    font-size: 25px;
+    text-align: center;
+
+}
+
+img {
+    height: 220px;
+    width: 220px;
+    border-radius: 200px;
+    padding: 20px
+}
+
+body {
+    background-color: rgb(12, 216, 12);
+}
+
+.darker {
+    position: fixed;
+    top: -94%;
+    left: -10%;
+    width: 150%;
+    height: 150%;
+    background-color: #ffffff;
+    -webkit-transform: rotate(30deg);
+    transform: rotate(15deg);
+    z-index: -2;
+}
+
+#index {
+
+
+    z-index: -1;
+}
+
+#About_ME {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.social-icon ul {
+    margin: 0;
+    position: absolute;
+    top: 71%;
+    left: 47.5%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: flex;
+
+
+}
+.social-icon ul li{
+    list-style: none;
+    margin: 0 15px;
+}
+.social-icon ul li .fa-brands{
+    font-size: 30px;
+    line-height: 52px;
+    transition: .3s;
+    color:black;
+}
+.social-icon ul li a:hover{
+    color: azure;
+}
+.social-icon ul li a{
+    position: relative;
+    display: block;
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    box-shadow: 0 4px 8px 0 black;
+    transition: .6s;
+
+}
